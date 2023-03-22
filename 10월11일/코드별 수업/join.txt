@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>회원가입</h1>
+    <table border="2" cellspacing="0" cellpaddong="2">
+        <form method="get" action="join.php">
+            <tr>
+             <td>
+                *<input type="text" placeholder="이메일" name="userEmail" required>
+                @<input type="text" name="userDomain" required>
+                <select name="com" id="">
+                    <option value="naver">naver.com</option>
+                    <option value="google">goole.com</option>
+                    <option value="daum">daum.com</option>
+                    <input type="submit" value="인증">
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" placeholder="이름" name="userName">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="password" placeholder="비밀번호" name="userpassch">
+                    <span>6~12자의 영문소문자,숫자만 사용할 수 있습니다.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="password" placeholder="비밀번호확인" name="userpassch">
+                    <span>비밀번호 확인을 위해 비밀번호를 한번 더 입력하세요.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="아이폰" id="">
+                        *<option value="010">010</option>
+                        <option value="016">016</option>
+                        <option value="018">018</option>
+                    </select>
+                    - <input type="text" name="phone">
+                    - <input type="text" name="phone">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    *성별 남<input type="radio" value="F" name="gender" checked> 
+                    여<input type="radio" value="M" name="geander">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    *<input type="text" placeholder="생년월일"  name="year">년
+                    <input type="text" name="month">월
+                    <input type="text" name="day">일
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="hidden" value="12" name="hiddenvalue">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   독서 <input type="checkbox" name="hobby" value="독서" checked>
+                   음악감상 <input type="checkbox" name="hobby" value="음악감상">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="회원가입">
+                    <input type="reset" value="취소">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

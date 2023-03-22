@@ -1,0 +1,112 @@
+
+thead, tbody, tfoot
+
+https://search.naver.com/search.naver?where=nex
+(?뒤에 오는 문장 - ur)
+
+ 컨트롤 - f 검색
+
+scpoe는 th에 쓰는 명령어
+
+<visusl stiudio>
+
+!하고 탭 기본뼈대 완성
+
+viewport -반응형 화면 (모바일 너비의 값)
+
+(ul>li*3)*3
+
+div - 여러가지 태그를 묶어서 배치 가능 ,큰 묶음
+ex)
+<div>
+<h2>카레만들기</h2>
+<ul>
+	<li></li>
+</ul>
+</div>
+
+span - 글자 내에서의 묶음 ,작은 묶음
+ex) 
+<p><span>그린</span> 컴퓨터 아카데미</p>
+
+-------------사용자입력 폼---------------------------------
+form method 검색태그
+input은 name 태그 필수
+method 전송방식 -get(주소창에 정보조회, ex-가을옷조회)
+		/post(화면 body에 달고감, 보안에 강함, 게시물)
+		 둘 중에 뭐할지
+action 경로
+input type = "submit" 버튼 - value 글씨
+input type = "reset" 취소
+input type = "password" 안보이게
+placeholder = 그 검색창이 무엇인지 ex-아이디, 비밀번호
+
+input -value 값
+radio 은 선택하는 값
+ 남성<input type="radio" name="gender" value="m">
+ 여성<input type="radio" name="gender" value="f">
+
+select name - option value 두개 같이옴 (선택하하는 값)
+<select name="jop" id="">
+                <option value="강사">강사</option>
+                <option value="학생">학생</option>
+                <option value="회사원">회사원</option>
+</select>
+
+cellspacing 칸끼리 간격 
+cellpaddong= 칸안에 글씨와의 간격
+
+radio 동그라미 선택
+checkbox 체크박스
+<input type="file" name="bb"> 파일찾기
+hidden 보이지 않게
+laber for = "입력 아이디" - id
+checkd 초기에 체크하는 값 (radio/checkbox 에 가능)
+			(체크박스는 중복선택)
+submit 전송하는 버튼
+reset 초기화
+button 버튼 (기능없는 버튼형태)
+<button type="submit">버튼형태<button>
+required 필수값 설정
+
+★input 속성★
+name : 전송되는 변수명
+id : input의 이름
+type : 입력형태 
+value : 값
+placaholder : input설명글
+required : 필수입력
+redonly : 읽기전용 (수정할 수 없음)
+disable : 사용불가 
+autocomplete : 자동완성 기능 지원
+on/off
+textarea name="msg" id="" cols="30" rows="10" 줄 간격 및 크기
+
+div id="wrap" 감싸다 고유명사
+class 반번호 같은 의미 
+	+ id랑 class 뭐든 태그에 사용가능
+
+<div id="wrap">
+        <div id="header" class="left"></div> 상단
+        <div id="contents" clsaa="left"></div> 하단
+        <div id="footer"></div>
+    </div> 
+기본틀
+
+컨트롤 슬러시 (상단영역 표시)
+
+ * 중첩 내용
+(li>a{meau$})*4
+<li><a href="">meau1</a></li>
+<li><a href="">meau2</a></li>
+<li><a href="">meau3</a></li>
+ <li><a href="">meau4</a></li>
+
+<li><a href="#">meau1</a></li>
+여기서 #은 임시링크 표시
+
+메뉴는 ul 마크업
+
+address 주소 마크업
+
+

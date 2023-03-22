@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*브라우저가 요소에 설정한 마진과 패딩을제거
+        * : 모든 태그 선택자
+        margin 위, 아래, 좌, 우, 바깥 여백
+        margin-left 왼쪽바깥여백
+        margin-right 오른바깥여백
+        margin-top 상단바깥여백
+        margin-bottom 하단바깥여백
+
+        margin: 10px(top,bottom) 20px(left,right)
+        margin: 10px(상단) 20px(좌,우) 30px(하단) 30px(하단)
+        margin: 10px(상단) 20px(오른쪽) 30px(하단) 30px(왼쪽)
+
+        border 위, 아래, 좌, 우, 테두리
+        border-left 왼쪽 테두리
+        border-right 오른쪽 테두리
+        border-top 상단 테두리
+        border-bottom 하단 테두리
+        */
+        *{margin: 0; padding: 0; 
+            box-sizing: content-box; 
+            vertical-align: top;
+        }
+        div{
+            border: 1px solid red ;
+            background: yellow;
+            width: 200px;
+            height: 200px;
+            padding:10px;
+            display: inline-block;
+            margin: -5px; 
+        }
+        #box2{
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>그린컴퓨터 아카데미 박스1</div>
+    <div id="box2">그린컴퓨터 아카데미 박스2</div>
+    <div>그린컴퓨터 아카데미 박스3</div>
+</body>
+</html>

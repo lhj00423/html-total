@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charest="utf-8" />
+		<title>테이블의 구조적 표현</title>
+	</head>
+	<body>
+		<h1>표의 구조적인 표현 thead, tbody, tfoot</h1>
+		<table border="1" cellspacing="0">
+			<caption>과목별 추천도서</caption>
+			<thead>
+				<tr>
+					<th scpoe="col">과목</th>
+					<th scpoe="col">책제목</th>
+					<th scpoe="col">저자</th>
+					<th scpoe="col">출판사</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>웹 프로그래밍</td>
+					<td>hrml5 웹 프로그래밍 입문</td>
+					<td>박희민</td>
+					<td>그린</td>
+				</tr>
+				<tr>
+					<td>웹 프로그래밍</td>
+					<td>css 스타일의 모든것</td>
+					<td>박희민</td>
+					<td>그린</td>
+				</tr>
+				<tr>
+					<td>웹 프로그래밍</td>
+					<td>바닐라 자바스크립트</td>
+					<td>박희민</td>
+					<td>그린</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>합계</td>
+					<td colspan="3">3권</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>

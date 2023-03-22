@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>join us 회원가입</h1>
+    <table border="2" cellspacing="0" cellpaddong="2">
+        <form method="get" action="join.php">
+            <tr>
+             <td>아이디</td>
+             <td>
+                <input type="text" name="id">
+            </td>
+            </tr>
+            <tr>
+                <td>패스워드</td>
+                <td>
+                   <input type="text" name="password">
+               </td>
+            </tr> 
+            <tr>
+                <td>패스워드 확인</td>
+                <td>
+                   <input type="text" name="password check">
+               </td>
+            </tr>
+            <tr>
+                <td>패스워드 분실시 질문</td>
+                <td>
+                    <select name="jop" id="">
+                        <option value="어렸을때 살던 곳은?">어렸을때 살던 곳은?</option>
+                        <option value="서울">서울</option>
+                        <option value="울산">울산</option>
+                        <option value="다음">다음</option>
+                        <option value="네이트">네이트</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>패스워드</td>
+                <td>
+                   <input type="text" name="password check">
+               </td>
+            <tr>
+                <td>
+                    <input type="password" placeholder="비밀번호" name="userpassch">
+                    <span>6~12자의 영문소문자,숫자만 사용할 수 있습니다.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="password" placeholder="비밀번호확인" name="userpassch">
+                    <span>비밀번호 확인을 위해 비밀번호를 한번 더 입력하세요.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="아이폰" id="">
+                        *<option value="010">010</option>
+                        <option value="016">016</option>
+                        <option value="018">018</option>
+                    </select>
+                    - <input type="text" name="phone">
+                    - <input type="text" name="phone">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    *성별 남<input type="radio" value="F" name="gender" checked> 
+                    여<input type="radio" value="M" name="geander">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    *<input type="text" placeholder="생년월일"  name="year">년
+                    <input type="text" name="month">월
+                    <input type="text" name="day">일
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="hidden" value="12" name="hiddenvalue">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   독서 <input type="checkbox" name="hobby" value="독서" checked>
+                   음악감상 <input type="checkbox" name="hobby" value="음악감상">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="회원가입">
+                    <input type="reset" value="취소">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

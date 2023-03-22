@@ -1,0 +1,70 @@
+css
+
+★block tag★
+p, h1~h6, div, ul,lli,ol,dl, dt,dd
+
+★inline tag★
+a, span, omg, input, select, small, mark
+
+<a href="#">네이버</a>
+<a href="#">구글</a>
+<a href="#">다음</a> 옆으로 배치
+
+<p>네이버</p>
+<p>구글</p>
+<p>다음</p> 밑으로 배치
+
+<input type="text" name="userId"> input도 옆으로 배치 
+
+
+*css 기본구문*
+{ : ; } 기본 열고 닫는 기호
+
+선택자 {속성: 속성값;}
+ex)
+
+<style>
+        h1 { font-size: 56px;}
+</style> -head 부분에 작성
+
+1.태그 선택자      h1
+2.아이디 선택자   #h1
+3.클래스 선택자   .left 
+
+<h1 id="title" class="lert"></h1>
+
+
+ <style>
+        /* 선택자 {속성: 속성값;}
+        1.태그 선택자    p
+        2.아이디 선택자  #
+        3.클래스 선택자  .
+        */
+    </style>
+
+다 해당되면 아이디-클래스-태그 가 우선순위로 해당됨
+
+<p id="green" class="blue">그린컴퓨터 아카데미</p>
+
+p가 태그
+id #
+. class
+
+ <style>
+        /* 선택자 {속성: 속성값;}
+        1.태그 선택자    p
+        2.아이디 선택자  #
+        3.클래스 선택자  .
+        */
+        p{ font-size: 30px;}
+        #green {color: green}
+        .blue {color: blue; text-decoration: underline;}
+        .red {color:blueviolet}
+    </style>
+</head>
+<body>
+    <p>그린컴퓨터 아카데미</p>
+    <p id="green" class="blue">그린컴퓨터 아카데미</p>
+    <p id="red" class="red">그린컴퓨터 아카데미</p>
+</body>
+

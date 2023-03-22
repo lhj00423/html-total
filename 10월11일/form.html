@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>폼태그</h1>
+    <form method="get" action="join.php">
+        <p>
+            <input type="text" name="userId" placeholder="아이디">
+        </p>
+        <p>
+        <input type="password" name="userPass" placeholder="비밀빈호">
+        </p>
+        <p>
+        남성<input type="radio" name="gender" value="m">
+        여성<input type="radio" name="gender" value="f">
+        </p>
+        <p>
+            <select name="jop" id="">
+                <option value="강사">강사</option>
+                <option value="학생">학생</option>
+                <option value="회사원">회사원</option>
+            </select>
+        </p>
+        <p>
+        <input type="submit" value="전송">
+        <input type="reset" value="취소">
+        </p>
+    </form>
+</body>
+</html>

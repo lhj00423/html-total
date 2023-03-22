@@ -1,0 +1,187 @@
+
+
+thead, tbody, tfoot
+
+https://search.naver.com/search.naver?where=nex
+(?뒤에 오는 문장 - ur)
+
+ 컨트롤 - f 검색
+
+scpoe는 th에 쓰는 명령어
+
+<visusl stiudio>
+
+!하고 탭 기본뼈대 완성
+
+viewport -반응형 화면 (모바일 너비의 값)
+
+(ul>li*3)*3
+
+div - 여러가지 태그를 묶어서 배치 가능 ,큰 묶음
+ex)
+<div>
+<h2>카레만들기</h2>
+<ul>
+	<li></li>
+</ul>
+</div>
+
+span - 글자 내에서의 묶음 ,작은 묶음
+ex) 
+<p><span>그린</span> 컴퓨터 아카데미</p>
+
+-------------사용자입력 폼---------------------------------
+form method 검색태그
+input은 name 태그 필수
+method 전송방식 -get(주소창에 정보조회, ex-가을옷조회)
+		/post(화면 body에 달고감, 보안에 강함, 게시물)
+		 둘 중에 뭐할지
+action 경로
+input type = "submit" 버튼 - value 글씨
+input type = "reset" 취소
+input type = "password" 안보이게
+placeholder = 그 검색창이 무엇인지 ex-아이디, 비밀번호
+
+input -value 값
+radio 은 선택하는 값
+ 남성<input type="radio" name="gender" value="m">
+ 여성<input type="radio" name="gender" value="f">
+
+select name - option value 두개 같이옴 (선택하하는 값)
+<select name="jop" id="">
+                <option value="강사">강사</option>
+                <option value="학생">학생</option>
+                <option value="회사원">회사원</option>
+</select>
+
+
+
+*************************************************
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>폼태그</h1>
+    <form method="get" action="join.php">
+        <p>
+            <input type="text" name="userId" placeholder="아이디">
+        </p>
+        <p>
+        <input type="password" name="userPass" placeholder="비밀빈호">
+        </p>
+        <p>
+        남성<input type="radio" name="gender" value="m">
+        여성<input type="radio" name="gender" value="f">
+        </p>
+        <p>
+            <select name="jop" id="">
+                <option value="강사">강사</option>
+                <option value="학생">학생</option>
+                <option value="회사원">회사원</option>
+            </select>
+        </p>
+        <p>
+        <input type="submit" value="전송">
+        <input type="reset" value="취소">
+        </p>
+    </form>
+</body>
+</html>
+********************************************(폼태그 양식)
+
+*********************************************
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>개인정보 입력</h1>
+    <h5>*필수정보 입력값입니다.</h5>
+    <table>
+    <form method="get" action="join.php">
+        <tr>
+            <td>
+                *<input type="text" name="userId" placeholder="이메일">
+                @<input type="text" name="userId">
+                <select name="jop" id="">
+                    <option value="직접입력">직접입력</option>
+                    <option value="한다음(다음)">한다음(다음)</option>
+                    <option value="지메일">지메일</option>
+                    <option value="네이버">네이버</option>
+                    <option value="네이트">네이트</option>
+                    <option value="파란">파란</option>
+                    <input type="submit" value="인증">
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                *<input type="text"name="userId" placeholder="이름">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                *<input type="text"name="userId" placeholder="비밀번호">6~12자의 영문소문자,숫자만 사용할 수 있습니다.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                *<input type="text"name="userId" placeholder="비밀번호 확인">비밀번호 확인을 위해 비밀번호를 한번 더 입력하세요.
+            </td>
+        </tr>
+       
+        <tr>
+            <td>
+                *<select name="jop" id="">
+                    <option value="010">010</option>
+                    <option value="011">011</option>
+                    <option value="016">016</option>
+                    <option value="017">017</option>
+                </select>-<input type="text"name="userId">
+                -<input type="text"name="userId">
+            </td>
+        </tr>
+        <tr>
+            <td>
+             *성별   남<input type="radio" name="gender" value="m">
+                여<input type="radio" name="gender" value="f">
+        </tr>
+        <tr>
+            <td>
+                *<input type="text"name="userId" placeholder="생년월일">년
+                <input type="text"name="userId">월
+                <input type="text"name="userId">일
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text"name="userId" placeholder="우편번호">
+                <input type="submit" value="우편번호 검색">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text"name="userId" placeholder="도로명주소">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <input type="text"name="userId" placeholder="나머지 상세주소">
+            </td>
+        </tr>
+    </form>
+</table>
+</body>
+</html>
+**********************************************************************
+
+

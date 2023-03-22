@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrap">
+        <!-- 상단영역 -->
+        <div id="header" class="left"></div>
+            <h1>그린컴퓨터</h1>
+            <ul>
+                <li><a href="#">meau1</a></li>
+                <li><a href="#">meau2</a></li>
+                <li><a href="#">meau3</a></li>
+                <li><a href="#">meau4</a></li>
+            </ul>
+    </div>
+    <div>
+        <!-- 상단영역 -->
+        <div id="contents">
+            <div class="visual"></div>
+                <h2>메인 비주얼 영역</h2>
+                <div>
+                    내용
+                </div>
+            </div>    
+            <div class="board">
+                <h2>메인 게시판</h2>
+                <div>
+                    내용
+                </div>
+            </div>
+            <div class="communtiy">
+                <h2>메인 커뮤니티 영역</h2>
+                <div>
+                    내용
+                </div>
+            </div>
+        <div id="footer">
+            <h1>그린 컴퓨터</h1>
+            <address>
+                서울특별시 서대문구 연세로 58 연세대학고 이과대학
+                <ul>
+                    <li><span>TEL.</span>02-2123-2552~2522</li>
+                    <li><span>FAX.</span>02-2123-2552~2522</li>
+                </ul>
+            </address>
+        </div>    
+    </div>
+</body>
+</html>
